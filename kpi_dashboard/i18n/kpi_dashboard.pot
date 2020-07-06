@@ -14,6 +14,12 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: kpi_dashboard
+#: code:addons/kpi_dashboard/models/kpi_kpi.py:106
+#, python-format
+msgid " or "
+msgstr ""
+
+#. module: kpi_dashboard
 #. openerp-web
 #: code:addons/kpi_dashboard/static/src/js/dashboard_controller.js:46
 #, python-format
@@ -61,6 +67,11 @@ msgid "Add to Dashboard"
 msgstr ""
 
 #. module: kpi_dashboard
+#: selection:kpi.kpi,widget:0
+msgid "Altair"
+msgstr ""
+
+#. module: kpi_dashboard
 #: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__args
 msgid "Args"
 msgstr ""
@@ -68,6 +79,11 @@ msgstr ""
 #. module: kpi_dashboard
 #: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard__background_color
 msgid "Background Color"
+msgstr ""
+
+#. module: kpi_dashboard
+#: selection:kpi.kpi,widget:0
+msgid "Bokeh"
 msgstr ""
 
 #. module: kpi_dashboard
@@ -79,6 +95,13 @@ msgstr ""
 #. module: kpi_dashboard
 #: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_dashboard_menu_form_view
 msgid "Cancel"
+msgstr ""
+
+#. module: kpi_dashboard
+#: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__code
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_kpi_form_view
+#: selection:kpi.kpi,computation_method:0
+msgid "Code"
 msgstr ""
 
 #. module: kpi_dashboard
@@ -190,6 +213,11 @@ msgstr ""
 #. module: kpi_dashboard
 #: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_dashboard_item__end_row
 msgid "End Row"
+msgstr ""
+
+#. module: kpi_dashboard
+#: model_terms:ir.ui.view,arch_db:kpi_dashboard.kpi_kpi_form_view
+msgid "Enter Python code here."
 msgstr ""
 
 #. module: kpi_dashboard
@@ -461,7 +489,7 @@ msgid "Size Y"
 msgstr ""
 
 #. module: kpi_dashboard
-#: code:addons/kpi_dashboard/models/kpi_dashboard.py:119
+#: code:addons/kpi_dashboard/models/kpi_dashboard.py:121
 #, python-format
 msgid "Size Y of the widget cannot be bigger than 10"
 msgstr ""
@@ -469,6 +497,12 @@ msgstr ""
 #. module: kpi_dashboard
 #: model:ir.model.fields,field_description:kpi_dashboard.field_kpi_kpi__suffix
 msgid "Suffix"
+msgstr ""
+
+#. module: kpi_dashboard
+#: code:addons/kpi_dashboard/models/kpi_kpi.py:108
+#, python-format
+msgid "The code cannot contain the following terms: %s."
 msgstr ""
 
 #. module: kpi_dashboard
@@ -504,7 +538,7 @@ msgid "Widget"
 msgstr ""
 
 #. module: kpi_dashboard
-#: code:addons/kpi_dashboard/models/kpi_dashboard.py:140
+#: code:addons/kpi_dashboard/models/kpi_dashboard.py:142
 #, python-format
 msgid "Widget %s is bigger than expected"
 msgstr ""
@@ -525,7 +559,7 @@ msgid "Widget configuration"
 msgstr ""
 
 #. module: kpi_dashboard
-#: code:addons/kpi_dashboard/models/kpi_dashboard.py:136
+#: code:addons/kpi_dashboard/models/kpi_dashboard.py:138
 #, python-format
 msgid "Widgets cannot be crossed by other widgets"
 msgstr ""
